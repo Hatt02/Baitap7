@@ -3,6 +3,7 @@
 }
 
 html, body {
+    font-family: Arial;
     scroll-behavior: smooth;
     padding: 0;
     margin: 0;
@@ -50,13 +51,10 @@ html, body {
     color: #fff;
 }
 
-.btn-danger{
-    background: rgba(156, 34, 18, 0.8);
-    color: #fff;
-}
+
 
 .btn-warning{
-    background: rgba(156, 96, 18, 0.8);
+    background: rgba(18, 156, 110, 0.8);
     color: #fff;
 }
 
@@ -156,12 +154,23 @@ img {
 }
 
 .banner-description {
-    width: 40%;
+    width: 50%;
+}
+
+.banner-description-content{
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 25px;
+}
+
+.banner-description-btn{
+margin-top: 30px;
 }
 
 .banner-image-wrap {
-    width: 60%;
+    width: 70%;
     position: relative;
+    margin-left: 70px;
 }
 
 .banner-image-wrap img:first-child {
@@ -294,23 +303,24 @@ img {
 }
 
 .analyst-bottom--left p:first-child {
-    font-size: 60px;
+    font-size: 55px;
     font-weight: bold;
 }
 
 .analyst-bottom--left p:nth-child(2) {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     color: #aaa;
+    margin-top: 40px;
 }
 
 .analyst-bottom--left .star {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
 }
 
 .analyst-bottom--left .star-title {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     color: #aaa;
 }
@@ -330,7 +340,7 @@ img {
 .rating {
     display: flex;
     position: absolute;
-    bottom: 35px;
+    bottom: 20px;
 }
 
 .rating div:first-child {
@@ -357,21 +367,21 @@ img {
 }
 
 .item-descript {
-    width: 80%;
+    width: 95%;
 }
 
-.item-descript h3 {
-    font-size: 30px;
+.item-descript h1 {
+    font-size: 20px;
     font-weight: bold;
     margin: 0;
     padding: 0;
 }
 
 .item-descript p {
-    font-size: 20px;
+    font-size: 10px;
     font-weight: bold;
     color: #aaa;
-    margin: 0;
+    margin: 10;
     padding: 0;
 }
 
@@ -385,7 +395,7 @@ img {
 }
 
 .feature-header h1 {
-    width: 60%;
+    width: 80%;
     font-size: 45px;
     font-weight: bold;
     margin: 0;
@@ -394,11 +404,12 @@ img {
 
 .feature-header p {
     width: 60%;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     color: #aaa;
-    margin: 0;
+    margin-left: 30px;
     padding: 0;
+    line-height: 27px;
 }
 
 .feature-body {
@@ -420,6 +431,7 @@ img {
     font-weight: bold;
     margin: 0;
     padding-top: 20px;
+    padding-left: 40px;
 }
 
 .feature-body p {
@@ -429,6 +441,7 @@ img {
     color: #aaa;
     margin: 0;
     padding-top: 20px;
+    padding-left: 40px;
 }
 
 #benifit {
@@ -453,8 +466,8 @@ img {
 }
 
 .benifit-left h1 {
-    width: 60%;
-    font-size: 45px;
+    width: 80%;
+    font-size: 50px;
     font-weight: bold;
     margin: 0;
     padding-bottom: 60px;
@@ -469,7 +482,7 @@ img {
 
 .benifit-right {
     position: relative;
-    width: 50%;
+    width: 70%;
 }
 
 .benifit-right .img-center {
@@ -501,11 +514,11 @@ img {
 }
 
 .benifit-right--header .descript {
-    width: 90%;
+    width: 70%;
 }
 
 .benifit-right--header h3 {
-    font-size: 25px;
+    font-size: 17px;
     font-weight: bold;
     margin: 0;
     padding-bottom: 20px;
@@ -513,7 +526,7 @@ img {
 }
 
 .benifit-right--header p {
-    font-size: 20px;
+    font-size: 12px;
     font-weight: bold;
     color: #aaa;
     margin: 0;
@@ -634,7 +647,7 @@ img {
     background-color: #aaaaaa43;
     padding: 20px;
     border-radius: 20px;
-    width: 80%;
+    width: 95%;
     height: 700px;
     display: flex;
     flex-direction: column;
@@ -652,7 +665,7 @@ img {
 .plan-body--item p {
     width: 80%;
     text-align: center;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: bold;
     color: #aaa;
     margin: 0;
@@ -668,9 +681,9 @@ img {
 }
 
 .plan-body--item .item-descript{
-    width: 80%;
+    width: 100%;
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     background-color: #fff;
     margin: 0;
@@ -725,8 +738,8 @@ img {
 }
 
 .contact-left h1 {
-    width: 50%;
-    font-size: 50px;
+    width: 90%;
+    font-size: 55px;
     font-weight: bold;
     color: #fff;
     margin: 0;
@@ -735,7 +748,7 @@ img {
 
 .contact-left p {
     width: 60%;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     color: #aaa;
     margin: 0;
@@ -922,6 +935,7 @@ img {
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px;
+
 }
 
 .footer-body {
